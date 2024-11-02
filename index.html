@@ -35,7 +35,7 @@
 
 </head>
 
-<body class="font-p  ">
+<body class="font-p ">
 
     <header class="bg-base-200 ">
         <div class="md:container md:mx-auto">
@@ -135,9 +135,9 @@
 
     <main class="bg-base-200 ">
         <!-- liveable spaces -->
-        <section class="md:container md:mx-auto items-center gap-5  lg:flex ">
+        <section class="md:container md:mx-auto items-center gap-5 lg:flex pt-10">
             <!-- text side -->
-            <div class="w-full sm:w-3/4 md:w-2/4 space-y-10 p-10 mx-auto flex flex-col items-center">
+            <div class="w-full sm:w-3/4 md:w-2/4 space-y-10 mx-auto flex flex-col items-center">
                 <div class="-ml-8">
                     <img src="./assets/Vector.png" alt="">
                 </div>
@@ -149,9 +149,9 @@
                     </svg>
                     About Us
                 </button>
-                <h1 class="text-3xl sm:text-5xl font-extrabold text-center">We design thoughtful,<br> livable spaces
+                <h1 class="text-3xl sm:text-5xl font-extrabold text-center md:text-left">We design thoughtful,<br> livable spaces
                 </h1>
-                <p class="text-center">The barn house captivates with its blend of rustic charm and modern
+                <p class="text-center md:text-left">The barn house captivates with its blend of rustic charm and modern
                     sophistication, featuring weathered wood, sleek metal accents.</p>
                 <!-- cards  -->
                 <div class="w-full">
@@ -175,12 +175,13 @@
                     </div>
                 </div>
             </div>
-
+            
             <!-- img side -->
             <div class="">
                 <img src="./assets/Rectangle.png" alt="">
             </div>
         </section>
+        
         <!-- work Process Section -->
         <section class="md:container md:mx-auto mt-10 ">
             <!-- texts -->
@@ -362,10 +363,10 @@
             </div>
         </section>
         <!-- discuss section -->
-        <section class="md:container md:mx-auto mt-20 bg-cover bg-center h-screen"
+        <section class="md:container md:mx-auto mt-20 bg-cover bg-center"
             style="background-image: url('./assets/bg.jpg');">
             <!-- text section -->
-            <div class="text-center p-20 space-y-7 bg-white bg-opacity-0 rounded-lg">
+            <div class="text-center p-20 space-y-7 bg-white bg-opacity-0 rounded-lg ">
                 <button class="flex btn-t p-1 space-x-2 mx-auto">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                         stroke="currentColor" class="size-5 ">
@@ -379,7 +380,7 @@
                     weathered wood, sleek metal accents.</p>
             </div>
             <!-- input section -->
-            <div class="">
+            <div class="p-5">
                 <div class="grid grid-cols-1 md:grid-cols-2 sm:px-8 justify-between gap-5 mb-5">
                     <div>
                         <textarea class="rounded-3xl p-1 w-full" placeholder="First Name*" name="" id=""></textarea>
@@ -404,15 +405,17 @@
                 </div>
             </div>
 
-            <button class="btn btn-p w-full">Send Mail
-                <span class="rounded-full bg-black text-white p-1">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                        stroke="currentColor" class="size-4">
-                        <path stroke-linecap="round" stroke-linejoin="round"
-                            d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
-                    </svg>
-                </span>
-            </button>
+            <div class="pl-7 pr-7 pb-7">
+                <button class="btn btn-p w-full">Send Mail
+                    <span class="rounded-full bg-black text-white p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="size-4">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                        </svg>
+                    </span>
+                </button>
+            </div>
         </section>
 
     </main>
@@ -433,7 +436,7 @@
                     sophistication,<br> featuring weathered wood, sleek metal accents.</p>
             </div>
             <div>
-                <ul class="text-center flex sm:flex-col md:flex-row sm:gap-y-4  justify-evenly">
+                <ul class="text-center flex flex-col lg:flex-row gap-y-4 lg:gap-y-0 lg:gap-x-8 justify-evenly">
                     <li><a href="">Home</a></li>
                     <li><a href="">Services</a></li>
                     <li><a href="">Portfolio</a></li>
@@ -441,16 +444,18 @@
                     <li><a href="">Contact Us</a></li>
                 </ul>
             </div>
+            
             <div class="text-center">
-                <button class="btn btn-p">Book Consult <span class=" rounded-full bg-black  text-white p-1"> <svg
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                            stroke="currentColor" class="size-4">
-                            <path stroke-linecap="round" stroke-linejoin="round"
-                                d="m4.5 19.5 15-15m0 0H8.25m11.25 0v11.25" />
+                <button class="btn btn-p w-full lg:w-auto">
+                    Book Consult
+                    <span class="rounded-full bg-black text-white p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                         </svg>
-                    </span></button>
-
+                    </span>
+                </button>
             </div>
+            
         </div>
     </footer>
 
